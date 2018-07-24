@@ -1,0 +1,34 @@
+// rem
+* {
+    box-sizing: border-box;
+    color: white;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    background: black; 
+    font-family: 'Raleway', 'Helvetica', sans-serif;
+    font-size: 1.6rem;
+    height: 100vh;
+    line-height: 1.6;
+    width: 100vw;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}
