@@ -19,6 +19,13 @@ import ucla from '../../assets/images/portfolio/after/ucla.jpg';
 import Yosemite from '../../assets/images/portfolio/after/Yosemite.jpg';
 import santamonica from '../../assets/images/portfolio/after/santamonica.jpg';
 import yosemiteriver from '../../assets/images/portfolio/after/yosemite-river.jpg';
+import manhattanbeach from '../../assets/images/portfolio/after/manhattanbeach.jpeg';
+import NYmemorial from '../../assets/images/portfolio/after/911memorial.jpeg';
+import waimeacanyon from '../../assets/images/portfolio/after/waimeacanyon.jpeg';
+import bigisland from '../../assets/images/portfolio/after/bigisland.jpeg';
+import osaka from '../../assets/images/portfolio/after/osaka.jpeg';
+import napalicoast from '../../assets/images/portfolio/after/napalicoast.jpeg';
+import yosemitefalls from '../../assets/images/portfolio/after/yosemite-falls.jpeg';
 
 const Portfolio = props => (
     <div className="portfolio-container cols">
@@ -31,6 +38,8 @@ const Portfolio = props => (
         <div className="box two"><img src={ucla} /></div>
         <div className="box one"><img src={bixby} /></div>
         <div className="box two"><img src={night} /></div>
+        <div className="box one"><img src={waimeacanyon} /></div>
+        <div className="box four"><img src={napalicoast} /></div>
         <div className="box five"><img src={echopark} /></div>
         <div className="box four"><img src={dockweiler} /></div>
         <div className="box five"><img src={horseshoebend} /></div>
@@ -41,6 +50,11 @@ const Portfolio = props => (
         <div className="box four"><img src={bigsur} /></div>
         <div className="box five"><img src={santamonica} /></div>
         <div className="box two"><img src={yosemiteriver} /></div>
+        <div className="box one"><img src={manhattanbeach} /></div>
+        <div className="box four"><img src={bigisland} /></div>
+        <div className="box four"><img src={osaka} /></div>
+        <div className="box five"><img src={NYmemorial} /></div>
+        <div className="box two"><img src={yosemitefalls} /></div>
     </div>
 );
 

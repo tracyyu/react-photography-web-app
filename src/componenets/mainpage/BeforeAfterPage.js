@@ -3,7 +3,7 @@ import BeforeBigSur from '../../assets/images/portfolio/before/before-bigsur.jpg
 import BigSur from '../../assets/images/portfolio/after/bigsur.jpg';
 import BeforeBixby from '../../assets/images/portfolio/before/before-bixby.jpg';
 import Bixby from '../../assets/images/portfolio/after/bixby.jpg';
-import BeforeDTLA from '../../assets/images/portfolio/before/before-dtla.png';
+import BeforeDTLA from '../../assets/images/portfolio/before/before-dtla.jpg';
 import DTLA from '../../assets/images/portfolio/after/dtla.JPG';
 import BeforeDockweiler from '../../assets/images/portfolio/before/before-dockweiler.jpg';
 import Dockweiler from '../../assets/images/portfolio/after/dockweiler.JPG';
