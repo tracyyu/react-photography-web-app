@@ -18,7 +18,6 @@
     border-bottom-left-radius: 8px;
     left: 0;
     right: 0;
-    margin-top: 50%;
     margin-left: auto;
     margin-right: auto;
     animation: top 2s ease 0s normal 1 backwards;
@@ -280,11 +279,10 @@
     border-bottom-left-radius: 8px;
     left: 0;
     right: 0;
-    margin-top: 53%;
     margin-left: auto;
     margin-right: auto;
-    animation: right 2s ease 0s normal 1 both;
-	-webkit-animation: right 2s ease 0s normal 1 both;
+    animation: right 2s ease 0s normal 1 backwards;
+	-webkit-animation: right 2s ease 0s normal 1 backwards;
 }
 
 
@@ -299,8 +297,8 @@
     background-color: rgba(68,70,74,1);
     margin-top: -65px;
     margin-left: -55px;
-  animation: focus 6s ease-in-out 2s normal 1 none;
-	-webkit-animation: focus 6s ease-in-out 2s normal 1 none; 
+  animation: focus 3s ease-in-out 2s normal 1 none;
+	-webkit-animation: focus 3s ease-in-out 2s normal 1 none; 
 }
 
 .lenses .lens2::after {
@@ -314,8 +312,8 @@
     background-color: rgba(0,0,0,1);
     margin-top: -55px;
     margin-left: -45px;
-  animation: focus 6s ease-in-out 2s normal 1 none;
-	-webkit-animation: focus 6s ease-in-out 2s normal 1 none;
+  animation: focus 3s ease-in-out 2s normal 1 none;
+	-webkit-animation: focus 3s ease-in-out 2s normal 1 none;
 }
 
 .lenses .inner-lens::after {
@@ -342,8 +340,8 @@
     background-color: rgba(256,0,0,0.5);
     margin-top: -31px;
     margin-left: -21.1px;
-   animation: adjust 4s ease-in-out 2s inormal infinte none;
-	-webkit-animation: adjust 4s ease-in-out 2s normal infinite none;
+   animation: adjust 4s ease-in-out 2s normal 1 none;
+	-webkit-animation: adjust 4s ease-in-out 2s 1 none;
 }
 
 .lenses .red-lens .red-glimmer  {
@@ -395,13 +393,13 @@
     background-color: #fff;
     top: 40%;
     left: 45%;
-    pacity: 0;
+    opacity: 0;
 /*   animation: flash 2s 5s normal 1 none;
 	-webkit-animation: flash 2s 5s normal 1 none; */
 }
 
 /* For mobile phones: */
-@media only screen and (max-height: 600px), (max-width: 450px)  {
+@media only screen and (min-height: 835px)  {
     .face {
         width: 220px;
         height: 120px;
@@ -411,7 +409,7 @@
         border-bottom-left-radius: 8px;
         left: 0;
         right: 0;
-        margin-top: 35%;
+        margin-top: 9%;
         margin-left: auto;
         margin-right: auto;
         animation: top 2s ease 0s normal 1 backwards;
@@ -425,7 +423,52 @@
         border-bottom-left-radius: 8px;
         left: 0;
         right: 0;
-        margin-top: 37%;
+        margin-top: 9.5%;
+        margin-left: auto;
+        margin-right: auto;
+        animation: right 3s ease 0s normal 1 both;
+        -webkit-animation: right 3s ease 0s normal 1 both;
+    }
+
+    #animation-travel {
+        position: absolute;
+        background: transparent;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 auto;
+        right: 0;
+        height: 100%;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (max-height: 835px) {
+    .face {
+        width: 220px;
+        height: 120px;
+        background-color: rgba(37, 37, 37, 1);
+        position: absolute;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        left: 0;
+        right: 0;
+        margin-top: 6%;
+        margin-left: auto;
+        margin-right: auto;
+        animation: top 2s ease 0s normal 1 backwards;
+        -webkit-animation: top 2s ease 0s normal 1 backwards;
+    }
+
+    .lenses {
+        width: 220px;
+        height: 120px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        left: 0;
+        right: 0;
+        margin-top: 6.5%;
         margin-left: auto;
         margin-right: auto;
         animation: right 3s ease 0s normal 1 both;
@@ -439,20 +482,22 @@
         margin: 0 auto;
         padding: 0 auto;
         left: 0;
+        top: 10%;
         right: 0;
         height: 100%;
         transform: scale(0.9,0.9); 
-    }
+    }    
 }
 
 /* For mobile phones: */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 460px) and (max-height: 700px){
  #animation-travel {
         position: absolute;
         background: transparent;
         text-align: center;
         margin: 0 auto;
         padding: 0 auto;
+        top: 5%;
         left: 0;
         right: 0;
         height: 100%;
@@ -492,7 +537,7 @@
 }
 
 /* For mobile phones: */
-@media only screen and (max-height: 600px) and (max-width: 375px) {
+@media only screen and (max-width: 375px) and (max-height: 600px) {
     .face {
         width: 220px;
         height: 120px;

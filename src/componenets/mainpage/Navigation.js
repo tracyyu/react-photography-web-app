@@ -7,7 +7,7 @@ const Navigation = props => {
             <nav className="nav avbar-expand-lg navbar-dark justify-content-center">
                 <NavLink className="nav-link" to="/">Home</NavLink>
                 <NavLink className="nav-link" to="/main/portfolio">Portfolio</NavLink>
-                <NavLink className="nav-link" to="/main/before">Before & After</NavLink>
+                <NavLink className="nav-link" to="/main/beforeafter">Before & After</NavLink>
                 <NavLink className="nav-link" to="/main/about">About</NavLink>
                 <NavLink className="nav-link" to="/main/contact">Contact</NavLink>
             </nav>

@@ -3,10 +3,10 @@ import portraitImg from '../../assets/images/portrait.jpg';
 import MapContainer from '../UI/MapContainer';
 
 const AboutPage = props => (
-    <div className="About container-fluid">
+    <div className="About">
         <div className="row">
-            <div className="image col-md-6">
-                <img src={portraitImg} />
+            <div className="image col-md-6 text-center">
+                <img src={portraitImg} className="portrait" />
             </div>
             <div className="description col-md-6 text-center">
                 <h1>Who am I?</h1>

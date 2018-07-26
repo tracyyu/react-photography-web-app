@@ -1,10 +1,10 @@
 .Homepage {
     height: 100%;
     width: 100%;
-    margin: 0 auto;
-    padding: 0 auto;
-    position: fixed;
+    margin: 0;
+    padding: 0;
     min-width: 350px;
+    min-height: 500px;
     z-index: 1;
     opacity: 1;
 }
@@ -21,18 +21,25 @@
     display: flex;
     min-height: 100%;
     min-height: 100vh;
+    z-index: 2;
   }
 
 .background {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
     min-height: 600px;
-    width: 100%;
+    width: 100vw;
     background-size: cover;
     opacity: 0.5;
     z-index: -20;
+}
+
+.homepage-row {
+    width: 100%;
 }
 
 .title-homepage {
@@ -44,6 +51,10 @@
 .description-homepage {
     width: 100%;
     margin: 20px;
+}
+
+.col {
+    display: inline;
 }
 
 .btn-homepage{
@@ -71,61 +82,31 @@
     }
 }
 
-.Homepage .footer {
-    bottom: 15px;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-
-    nav {
-        height: auto;
-        opacity: 0.8;
-    }
-
-    a{
-        background-color: transparent;
-        display: inline-block;
-        margin: 0px 10px;
-        i {
-            color: black;
-            background: white;
-            width: 27px;
-            height: 27px;
-            border-radius: 50%;
-            line-height: 25px;
-            padding-top: 1px; 
-        }
-    }
-}
-
 /* For mobile phones: */
-@media only screen and (max-height: 600px) and (max-width: 450px){
+@media only screen and (max-width: 450px) , (max-height: 700px){
     .title-homepage {
         font-family: 'Abril Fatface', cursive;   
         font-size: $l-size;
     }
 
-    .container {
+    .Homepage-intro {
         height: auto;
         width: 100%;
         z-index: 1;
         opacity: 1;
-        margin-top: -110px;
     }
 }
 
-@media only screen and (max-height: 600px) and (max-width: 375px){
+@media only screen and (max-width: 375px){
     .title-homepage {
         font-family: 'Abril Fatface', cursive;   
         font-size: $m-size;
     }
 
-    .container {
+    .Homepage-intro {
         height: auto;
         width: 100%;
         z-index: 1;
         opacity: 1;
-        margin-top: -130px;
     }
 }

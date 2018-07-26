@@ -8,7 +8,11 @@
 }
 
 html {
+    height: 100vh;
     font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
 }
 
 
@@ -19,6 +23,9 @@ body {
     height: 100vh;
     line-height: 1.6;
     width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
 }
 
 button {

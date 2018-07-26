@@ -1,18 +1,23 @@
 .Contact {
-    .row {
-        margin-top: 20px;
-    }
+    width: 83%;
+    min-height: 100%;
+    margin: auto;
+    margin-top: 15%;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
 
-    img {
-        opacity: 0.4;
-        width: 83vw;
-        height: 83vh;
+.Contact {
+    .contact-background {
+        opacity: 0.5;
+        width: 83%;
+        height: 85%;
         border-radius: 3px;
         position: absolute;
-        top: 15%;
+        top: 10%;
         left: 50%;
         transform: translateX(-50%);
-        z-index: -10;
+        z-index: -0;
     }
 
     h2 {
@@ -23,7 +28,7 @@
     form {
         border: 1px solid white;
         border-radius: 6px;
-        padding: 20px;
+        padding: 40px;
 
         .form-row, .form-group {
             padding: 5px;
@@ -46,29 +51,29 @@
             min-height:75px;
             vertical-align: text-top;
         }
+        .btn {
+            background-color: transparent;
+            border: 1px solid white;
+            display: inline-block;
+            font-size: 14px;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            padding: 10px 20px;
+        }
     }
 
-    .btn {
-        background-color: transparent;
-        border: 1px solid white;
-        display: inline-block;
-        font-size: 14px;
-        letter-spacing: 3px;
-        margin-top: 20px;
-        padding: 10px 20px;
-    }
     .info {
         .vcenter {
             display: inline-block;
             vertical-align: middle;
-            font-size: $s-size;
+            font-size: $ml-size;
         }
     }
 }
 
 @media only screen and (max-width: 1000px){
     .info {
-        margin-top: 50px;
+        margin-top: 20px;
         margin-bottom: 30px;
 
         .vcenter {

@@ -2,8 +2,8 @@ import React from 'react';
 import aboutImg from '../../assets/images/camera.jpg';
 
 const ContactPage = props => (
-    <div className="Contact container">
-        <img src={aboutImg} />
+    <div className="Contact row">
+        <img className="contact-background" src={aboutImg} />
         <div className="row">
             <div className="col-lg-6">
                 <form className="text-left">
@@ -41,8 +41,8 @@ const ContactPage = props => (
                 </form>
             </div>
             <div className="col-lg-1"></div>
-            <div className="info col-lg-4">
-                <div className="vcenter">
+            <div className="info col-lg-5">
+                <div className="vcenter text-center">
                     <h2>Business Inquiries</h2>
                     <p className="align-middle">
                         If my words and my work have spoken to you, 
