@@ -1,6 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway');
+@import "node_modules/bootstrap/scss/bootstrap";
 @import './base/base';
 @import './base/settings';
 @import './components/app';
 @import './components/homepage';
+@import './components/main';
+@import './components/header';
+@import './components/navigation';
+@import './components/about';
+@import './components/contact';
+@import './components/portfolio';
+@import './components/footer';
