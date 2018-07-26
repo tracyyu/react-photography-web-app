@@ -1,0 +1,97 @@
+[
+    { "city": "London",
+      "lat": 51.5074,
+      "lng": -0.1278},
+  {   "city": "Paris",
+      "lat": 48.8566,
+      "lng": -2.3522},
+    { "city": "NYC",
+      "lat": 40.7128,
+      "lng": -74.0060
+    },
+    {
+      "city": "Seoul",
+      "lat": 37.5665,
+      "lng": 126.9780
+    },
+    {
+      "city": "Tokyo",
+      "lat": 35.6895,
+      "lng": 139.6917
+    },
+    {
+      "city": "Osaka",
+      "lat": 34.6937,
+      "lng": 135.5022
+    },
+    {
+      "city": "Kyoto",
+      "lat": 35.0116,
+      "lng": 135.7680
+    },
+    {
+      "city": "HongKong",
+      "lat": 22.3964,
+      "lng": 114.1095
+    },
+    {
+      "city": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198
+    },
+    {
+      "city": "Shanghai",
+      "lat": 31.2304,
+      "lng": 121.4737
+    },
+    {
+      "city": "Taipei",
+      "lat": 25.0330,
+      "lng": 121.5654
+    },
+    {
+      "city": "Chicago",
+      "lat": 41.8781,
+      "lng": -87.6298
+    },
+    {
+      "city": "Philly",
+      "lat": 39.952583,
+      "lng": -75.165222
+    },
+    {
+      "city": "LosAngeles",
+      "lat": 34.0522,
+      "lng": -118.2437
+    },
+    {
+      "city": "Utah",
+      "lat": 33.63866,
+      "lng": -110.79622
+    },
+    {
+      "city": "Monterrey",
+      "lat": 36.6002,
+      "lng": -121.8947
+    },
+    {
+      "city": "Yosemite",
+      "lat": 37.8651,
+      "lng": 119.5383
+    },
+    {
+      "city": "Sydney",
+      "lat": -33.8688,
+      "lng": 151.2093
+    },
+    {
+      "city": "Honolulu",
+      "lat": 21.3069,
+      "lng": -157.8583
+    },
+    {
+      "city": "Kaui",
+      "lat": 22.0964,
+      "lng": -159.5261
+    }
+  ]

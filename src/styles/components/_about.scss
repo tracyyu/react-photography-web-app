@@ -1,0 +1,23 @@
+.About {
+    height: 100%;
+    padding-top: 10px;
+    width: 100%;
+    position: relative;
+
+    .image {
+        padding-left: 8%;
+    }
+
+    img {
+        width: 380px;
+        height: 380px;
+        border-radius: 5px;
+        opacity: 1;
+    }
+
+    .description {
+        z-index: 2;
+        color: white;
+        padding-right: 8%;
+    }
+}
