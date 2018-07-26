@@ -1,8 +1,7 @@
 .Contact {
     width: 83%;
-    min-height: 100%;
+    height: 100%;
     margin: auto;
-    margin-top: 15%;
     padding-bottom: 50px;
     box-sizing: border-box;
 }
@@ -71,7 +70,11 @@
     }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 991px){
+    .Contact {
+        margin-top: 5%;
+    }
+
     .info {
         margin-top: 20px;
         margin-bottom: 30px;
@@ -84,4 +87,9 @@
     }
 
 }
+
+@media only screen and (min-width: 992px) {
+    .Contact {margin-top: 10%;}
+}
+
 
